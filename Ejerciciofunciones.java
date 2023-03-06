@@ -177,17 +177,6 @@ public static int calculo_ocurrencias(String listaNumeros, int numeroBuscado) {
     return contador;
  }
 
-public static boolean Palindromo(int numero) {
-    int numeroInvertido = 0;
-    int numeroOriginal = numero;
-    while (numero > 0) {
-        int digito = numero % 10;
-        numeroInvertido = numeroInvertido * 10 + digito;
-        numero = numero / 10;
-     }
-    return numeroOriginal == numeroInvertido;
-    }
-
 public static boolean esPalindromo(int numero) {
     int numReverso = 0;
     int numOriginal = numero;
